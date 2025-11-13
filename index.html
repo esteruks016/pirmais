@@ -25,13 +25,57 @@
                     <input type="number" id="linoliumWidth" step="0.01">
                 </div>
                 <div class="group">
-                    <label>Linoleja cena (/m<sup>2</sup>)</label>
+                    <label>Linoleja cena (€/m<sup>2</sup>)</label>
                     <input type="number" id="Length" step="0.01">
+                </div>
+                <div class="button-group">
+                    <button>rēķināt</button>
                 </div>
 
             </div><!--aizver baltais konteiners-->
             <div class="output-container"><!--zaļais konteiners-->
-                zaļais
+                <h3>rezultāti:</h3>
+                <div class="result-row">
+                    <div class="group">
+                        <label>garums gareniski:</label>
+                        <input type="text" id="lengthLong" readonly>
+                    </div>
+                    <div class="group">
+                        <label>šķersām:</label>
+                        <input type="text" id="lengthCross" readonly>
+                    </div>
+                </div>
+                <div class="result-row">
+                    <div class="group">
+                        <label>izmaksas gareniski:</label>
+                        <input type="text" id="costLong" readonly>
+                    </div>
+                    <div class="group">
+                        <label>šķersām:</label>
+                        <input type="text" id="costCross" readonly>
+                    </div>
+                </div>
+                <div class="result-row">
+                    <div class="group">
+                        <label>atgriezumi gareniski:</label>
+                        <input type="text" id="wasteLong" readonly>
+                    </div>
+                    <div class="group">
+                        <label>šķersām:</label>
+                        <input type="text" id="wasteCross" readonly>
+                    </div>
+                </div>
+                <div class="result-row">
+                    <div class="group">
+                        <label>atgriezumu izmaksas gareniski:</label>
+                        <input type="text" id="wasteCostLong" readonly>
+                    </div>
+                    <div class="group">
+                        <label>šķersām:</label>
+                        <input type="text" id="wasteCostCross" readonly>
+                    </div>
+                </div>
+
 
             </div><!--Aizver zaļais konteiners-->
 
